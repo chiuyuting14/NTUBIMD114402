@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ---- Flask uploads & static files ----
+uploaded_images/
+static/
+
+# ---- AI models ----
+models/
+
+# ---- Virtual Environments ----
+env/
+venv/
+.smartcare_env/
+.pose_guard_env/
+
+# ---- Jupyter / Notebook files ----
+.ipynb_checkpoints/
+
+# ---- IDE / Editor settings ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Config and Secrets ----
+.env
+.env.*
+*.log
+
+# ---- Conda environment exports ----
+env.txt
+
+# ---- Misc ----
+*.bak
+*.tmp
+
+# ---- Azure Key ----
+key.pem
